@@ -1,0 +1,249 @@
+:root {
+    --dark-blue: #2F303A;
+    --white: #ffffff;
+    --light-blue: #2196F3;
+    --light-black:#757575;
+    --black: #212121;
+    --grey-white:#F5F4FA;
+    --primary-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+}
+body{
+    font-family: var(--primary-font);
+    color:var(--black) ;
+}
+/* Header section style */
+.header {
+    background-color: #ffffff;
+}
+
+.header__logo a  {
+        text-decoration:none;
+        font-family: var(--secondary-font);
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 30px;
+        color: var(--black);    
+}
+
+/* Am incercat sa folosesc pentru tag-ul <span> clasa "header__logo__mcol", dar nu am reusit sa schimb culoarea textului */
+.header__logo__mcol {
+    color: var(--light-blue);
+}
+
+.header__navigation ul {
+    list-style: none;
+}
+.header__navigation a {
+    text-decoration: none;
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--black);
+}
+
+.header__navigation a:hover {
+    color: var(--light-blue);
+}
+.header__navigation a:focus {
+    color: var(--light-blue);
+}
+.header__info__mail  {
+    text-decoration: none;
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--light-black);
+        
+}
+
+.header__info__mail:hover {
+    color: var(--light-blue);
+}
+.header__info__mail:focus {
+    color: var(--light-blue);
+}
+.header__info__tel {
+    text-decoration: none;
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--light-black);
+
+}
+.header__info__tel:hover {
+    color: var(--light-blue);
+}
+.header__info__tel:focus {
+    color: var(--light-blue);
+}
+
+/* Main section style */
+.intro{
+    color: var(--white);
+    background-color: var(--dark-blue);
+    
+}
+.intro__title{
+    
+    font-family: var(--primary-font);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    color: var(--white);
+    text-align: center;
+    letter-spacing: 2.5px;
+}
+.intro__servrequest{
+    border-radius: 4px;
+    background-color: var(--light-blue);
+    color: var(--white);
+    font-family: var(--primary-font);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;  
+}
+.intro__servrequest:hover{
+    border-radius: 0;
+}
+.intro__servrequest:focus {
+    border-radius: 0;
+}
+
+/* Details section style */
+.details h5{
+    font-family: var(--primary-font);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color:var(--black)
+}
+.details p {
+    font-family: var(--primary-font);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color:var(--light-black);
+}
+
+/* What we do section style */
+
+.whwedo h2{
+    font-family: var(--primary-font);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: var(--black);
+}
+
+/* Our team section style */
+
+.ourt  h2{
+    font-family: var(--primary-font);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: var(--black);
+}
+
+.ourt__role__name{
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--black);
+}
+
+.ourt__role{
+    font-family: var(--primary-font);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--light-black);
+
+}
+
+/* Footer section style */
+.footer{
+    background-color: var(--dark-blue);
+}
+
+.footer__logo a {
+    text-decoration: none;
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 30px;
+    color: var(--white);
+}
+.footer__location{
+    font-style: normal;
+    font-family: var(--primary-font);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--white);
+}
+.footer__address a{
+    font-style: normal;
+    text-decoration: none;
+    font-family: var(--primary-font);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--light-black);
+}
+
+.footer__address a:hover {
+    color: var(--light-blue);
+}
+
+.footer__address a:focus {
+    color: var(--light-blue);
+}
+
+/* Portofolio filters/buttons section style */
+
+.btn button{
+cursor: pointer;
+border-style: none;
+background-color: var(--grey-white);
+font-family: var(--primary-font);
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+color: var(--black);
+}
+
+.btn button:hover{
+background-color: var(--light-blue);
+color: var(--white);
+}
+.btn button:focus {
+background-color: var(--light-blue);
+color: var(--white);
+}
+
+/*Portofolio main section style */
+
+.main__design__title {
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--black);
+}
+
+.main__design {
+    font-family: var(--primary-font);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--light-black);
+
+}
