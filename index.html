@@ -12,7 +12,10 @@
      <link rel="stylesheet" href="./css/styles.css"/>
     </head> 
     <body>
-    <header class="header"> 
+        <!-- Header section-->
+         
+    <header class="header">
+        <div class="container"> 
         <div class="header__logo"><a href="/"><span style="color:#2196F3 ;">Web</span>Studio</a>
          
         </div>  
@@ -28,14 +31,22 @@
             <a class="header__info__mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
             <a class="header__info__tel" href="tel:+12127724150">+1 212-772-4150</a>
         </div>
+        </div>
 
     </header> 
+
+    <!-- Hero section-->
     <main>
         <section class="intro">
+            <div class="container">
             <h1 class="intro__title"> EFECTIVE SOLUTION FOR<br>YOUR BUSINESS</h1>
             <button class="intro__servrequest" type="button">Request our service</button>
+            </div>
         </section>
+
+        <!-- Details section-->
         <div class="details">
+            <div class="container">
             <h5>ATTENTION TO DETAILS</h5>
             <p>We go into all the details and processes<br>of your business to develop a<br>costumized solution</p>
             <h5>PUNCTUALITY</h5>
@@ -45,35 +56,45 @@
             <h5>MODERN TECHNOLOGIES</h5>
             <p>We use innovative tools to solve<br>assigned tasks. It's time to simplify work<br>processes.</p>
         </div>
-        <div class="whwedo">
-            <h2>What we do</h2>
-            <img src="img/WwdB1.jpg" alt="frontend developer pic " width="200">
-            <img src="img/WwdB2.jpg" alt="mobile app design pic" width="200">
-            <img src="img/WwdB3.jpg" alt="site design pic" width="200">
         </div>
+        <!-- What we do section-->
+        <div class="whwedo">
+            <div class="container">
+            <h2>What we do</h2>
+
+            <img class="whwedo__images" src="img/WwdB1.jpg" alt="frontend developer pic " width="200">
+            <img class="whwedo__images" src="img/WwdB2.jpg" alt="mobile app design pic" width="200">
+            <img class="whwedo__images" src="img/WwdB3.jpg" alt="site design pic" width="200">
+            </div>
+        </div>
+        <!-- Our team section-->
         <section class="ourt">
+            <div class="container">
             <h2>Our Team</h2>
             <div style="display: flex; gap: 15px;">
             <figure>
-                <img src="img/christopherwalker.jpg" alt="Christopher Walker" width="150">
+                <img class="ourt__images" src="img/christopherwalker.jpg" alt="Christopher Walker" width="150">
                 <figcaption class="ourt__role"><b class="ourt__role__name">Christopher Walker</b><br>Product Designer</figcaption>
             </figure>
             <figure>
-                <img src="img/kylieevans.jpg" alt="Kylie Evans" width="150">
+                <img class="ourt__images" src="img/kylieevans.jpg" alt="Kylie Evans" width="150">
                 <figcaption class="ourt__role"><b class="ourt__role__name">Kylie Evans</b><br>Frontend Developer</figcaption>
             </figure>
             <figure>
-                <img src="img/ryanharris.jpg" alt="Ryan Harris" width="150">
+                <img class="ourt__images" src="img/ryanharris.jpg" alt="Ryan Harris" width="150">
                 <figcaption class="ourt__role"><b class="ourt__role__name">Ryan Harris</b><br>Marketing</figcaption>                
             </figure>
             <figure>
-                <img src="img/tylermoore.jpg" alt="Tyler Moore" width="150">
+                <img class="ourt__images" src="img/tylermoore.jpg" alt="Tyler Moore" width="150">
                 <figcaption class="ourt__role"><b class="ourt__role__name">Tyler Moore</b><br>UI Designer</figcaption>               
             </figure>
             </div>
+            </div>
         </section>
     </main> 
+    <!-- Footer section-->
     <footer class="footer">
+        <div class="container">
             <div class="footer__logo">
                 <a href="/"><span style="color:#2196F3 ;">Web</span>Studio</a>        
             </div>
@@ -84,6 +105,7 @@
                 <a href="mailto:info@devstudio.com">info@devstudio.com</a><br>
                 <a href="tel:+12127724150">+1 212-772-4150</a>
             </address>
+            </div>
     </footer>    
     </body>
 </html>

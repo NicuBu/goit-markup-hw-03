@@ -14,15 +14,26 @@
     padding: 0;
 }
 
+
+
+html{
+    box-sizing: border-box;
+}
+
+ul{
+   list-style: none; 
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
 img{
     display: block;
     max-width: 100%;
     height: auto;
 }
 
-html{
-    box-sizing: border-box;
-}
 
 
 
@@ -32,11 +43,21 @@ body{
 }
 /* Header section style */
 .header {
-    background-color: #ffffff;
+    background-color: #ffffff;  
+}
+
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    padding-left: 215px;
+    padding-right: 215px;
+
 }
 
 .header__logo a  {
-        text-decoration:none;
+        
         font-family: var(--secondary-font);
         font-weight: 700;
         font-size: 26px;
@@ -50,10 +71,15 @@ body{
 }
 
 .header__navigation ul {
-    list-style: none;
+    display: flex;
+    gap:50px;
+    align-items: center;
+
 }
+
+
 .header__navigation a {
-    text-decoration: none;
+   
     font-family: var(--primary-font);
     font-weight: 500;
     font-size: 14px;
@@ -68,7 +94,7 @@ body{
     color: var(--light-blue);
 }
 .header__info__mail  {
-    text-decoration: none;
+    
     font-family: var(--primary-font);
     font-weight: 500;
     font-size: 14px;
@@ -84,7 +110,7 @@ body{
     color: var(--light-blue);
 }
 .header__info__tel {
-    text-decoration: none;
+  
     font-family: var(--primary-font);
     font-weight: 500;
     font-size: 14px;
@@ -99,12 +125,27 @@ body{
     color: var(--light-blue);
 }
 
-/* Main section style */
+/* Hero section style */
 .intro{
     color: var(--white);
     background-color: var(--dark-blue);
+    height: 600px;
+    display: flex;
+   
+    
     
 }
+
+.intro .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    gap: 30px;
+
+
+}
+
 .intro__title{
     
     font-family: var(--primary-font);
@@ -114,6 +155,7 @@ body{
     color: var(--white);
     text-align: center;
     letter-spacing: 2.5px;
+   
 }
 .intro__servrequest{
     border-radius: 4px;
@@ -124,7 +166,8 @@ body{
     font-size: 16px;
     line-height: 30px;
     text-align: center;
-    cursor: pointer;  
+    cursor: pointer;
+     
 }
 .intro__servrequest:hover{
     border-radius: 0;
@@ -158,6 +201,11 @@ body{
     line-height: 42px;
     color: var(--black);
 }
+.whwedo__images{
+    display: inline-block;
+    width: 370px;
+    height: 294px;
+}
 
 /* Our team section style */
 
@@ -186,13 +234,20 @@ body{
 
 }
 
+.ourt__images{
+    display: inline-block;
+    width: 270px;
+    height: 260px;
+}
+
 /* Footer section style */
 .footer{
     background-color: var(--dark-blue);
+    
 }
 
 .footer__logo a {
-    text-decoration: none;
+   
     font-family: var(--secondary-font);
     font-weight: 700;
     font-size: 26px;
@@ -208,8 +263,7 @@ body{
     color: var(--white);
 }
 .footer__address a{
-    font-style: normal;
-    text-decoration: none;
+    font-style: normal;    
     font-family: var(--primary-font);
     font-weight: 400;
     font-size: 14px;
@@ -263,5 +317,21 @@ color: var(--white);
     font-size: 16px;
     line-height: 19px;
     color: var(--light-black);
+
+}
+
+.main__images{
+    display: inline-block;
+    width: 370px;
+    height: 294px;
+}
+/*Tema 03 */
+
+/*Tema 03 */
+
+.container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 
 }
