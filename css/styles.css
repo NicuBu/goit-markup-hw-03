@@ -422,7 +422,7 @@ background-color: var(--light-blue);
 color: var(--white);
 }
 
-.btn .container{
+.btn .container {
     display: flex;
     justify-content: center;
     padding-top: 94px;
@@ -450,13 +450,13 @@ color: var(--white);
 
 }
 
-.main__images{
-    
+.main__images {
+    display: inline-block;
     width: 370px;
     height: 294px;
 }
 
-.main .container{
+.main .container {
     display: flex;
     flex-wrap: wrap;
     padding-bottom: 94px;
