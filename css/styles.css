@@ -51,8 +51,7 @@ body{
     justify-content: space-between;
     height: 80px;
     align-items: center;
-    padding-left: 215px;
-    padding-right: 215px;
+    
       
 
 }
@@ -210,6 +209,7 @@ body{
     display: flex;
     padding-top: 94px;
     gap: 30px;
+    justify-content: space-around;
     
 }
  .details__container .details__title{
@@ -233,7 +233,7 @@ body{
     color: var(--black);
 }
 .whwedo__images{
-    display: inline-block;
+  
     width: 370px;
     height: 294px;
 }
@@ -273,10 +273,34 @@ body{
     display: flex;
     justify-content: center;
     gap: 30px;
-    padding-top: 50px;   
+    padding-top: 50px;
+    padding-bottom: 94px;   
 
 }
+.ourt__card .ourt__images , .ourt__role{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   
+    
+}
 
+.ourt__role .ourt__role__name{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.ourt__role .ourt__role__role {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.ourt__card{
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
+   0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
 
     
 
@@ -312,7 +336,6 @@ body{
 }
 
 .ourt__images{
-    display: inline-block;
     width: 270px;
     height: 260px;
 }
@@ -358,6 +381,25 @@ body{
 .footer__address a:focus {
     color: var(--light-blue);
 }
+
+.footer__logo{
+    display: flex;
+    padding-top:  60px; 
+    padding-bottom: 28px;
+  
+}
+.footer__address{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 60px;
+    justify-content: center;
+    gap: 12px;
+
+}
+
+
+
+
 
 /* Portofolio filters/buttons section style */
 
